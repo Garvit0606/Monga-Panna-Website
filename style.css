@@ -1,6 +1,42 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  text-align: center;
+}
 
-body { font-family: Arial; margin: 0; padding: 0; text-align: center; }
-header { background: green; color: white; padding: 15px; }
-nav a { color: white; margin: 10px; text-decoration: none; }
-.hero { padding: 50px; }
-.product { border: 1px solid #ccc; padding: 10px; margin: 10px; }
+header {
+  background: #1b5e20;
+  color: white;
+  padding: 15px;
+}
+
+nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.hero {
+  padding: 40px;
+  background: #f1f8e9;
+}
+
+.info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.product {
+  border: 1px solid #ccc;
+  margin: 15px;
+  padding: 15px;
+}
+
+.whatsapp {
+  display: inline-block;
+  background: #25d366;
+  color: white;
+  padding: 12px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
